@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+// get
 app.get('/', (req, res) => {
   res.send('Welcome to Express API');
 });
